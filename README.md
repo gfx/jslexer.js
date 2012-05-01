@@ -1,13 +1,13 @@
 # NAME
 
-jslexer.js - Tiny tokanizer for a JavaScript subset
+jslexer.js - Tiny tokenizer for a JavaScript subset
 
 
 # SYNOPSIS
 
     var jslexer = require("jslexer");
 
-    var tokens = jslexer.tokanize(fileName, content);
+    var tokens = jslexer.tokenize(fileName, content);
 
 # COPYRIGHT AND LICENSE
 
