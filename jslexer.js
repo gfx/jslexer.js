@@ -35,7 +35,7 @@
 	var multiLineComment  = "(?: /\\* (?: [^*] | (?: \\*+ [^*\\/]) )* \\*+/)";
 	var singleLineComment = "(?: // [^\\r\\n]* )";
 	var comment           = makeAlt([multiLineComment, singleLineComment]);
-	var whiteSpace        = "[\\x20\\t\\r\\n]+";
+	var whiteSpace        = "[ \\u00a0\\n\\r\\t\\f\\u000b\\u180e\\u2000-\\u200b\\u202f\\u205f\\u3000]+";
 
 	var keywords = [
 		"null",     "true",     "false",
