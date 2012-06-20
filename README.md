@@ -9,6 +9,10 @@ jslexer.js - Tiny tokenizer for a JavaScript subset
 
     var tokens = jslexer.tokenize(fileName, content);
 
+# SEE ALSO
+
+* http://github.com/gfx/source-map-inspector
+
 # COPYRIGHT AND LICENSE
 
 Copyright (c) 2012 Fuji Goro (gfx) <gfuji@cpan.org>.
